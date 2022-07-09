@@ -12,7 +12,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Box } from '@mui/system';
 import qs from 'qs' ;
 
-// const url = "https://localhost/server" ;
+const url = "https://localhost/server" ;
 
 function App() {
   const [ codeText , setCodeText ] = useState("") ;
@@ -95,7 +95,7 @@ function App() {
         input: inp ,
       });
 
-  axios.post("https://localhost/server", data )
+  axios.post(url, data )
   .then( res => {
     if( res.data.success )
       setResult(res.data.output);
@@ -140,7 +140,7 @@ function App() {
         <Typography 
             variant="h1" color="grey" align="center" 
             fontWeight={900} fontFamily="-apple-system">
-             C3-PO Compiler
+             Segmentation
         </Typography>
       </header>
 
