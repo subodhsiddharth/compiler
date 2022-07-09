@@ -12,8 +12,6 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Box } from '@mui/system';
 import qs from 'qs' ;
 
-const url = "https://localhost/server" ;
-
 function App() {
   const [ codeText , setCodeText ] = useState("") ;
   const [ lang , setLang ] = useState("py") ;
@@ -22,6 +20,7 @@ function App() {
   const [ copyButton , setCopyButton ] = useState(<ContentCopyIcon sx={{ fontSize: 20 }} /> ) ;
   const [ isLoaded, setIsLoaded] = useState(false); 
   const [ compile , setCompile ] = useState(<ChevronRightIcon sx={{ fontSize: 40 }} />) ;
+  const url = "https://codex-api.herokuapp.com/" ;
 
   // loading data from localStorage and adding tab in input field
   window.onload = () =>{
