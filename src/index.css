@@ -12,6 +12,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 header{
   display: flex;
   padding-top: 2%;
@@ -19,6 +24,7 @@ header{
   position: sticky;
   border-bottom: 1px grey solid ;
   box-shadow: 0 4px 4px -2px gray;
+  z-index: 3px;
   background-color: whitesmoke;
 }
 
@@ -50,6 +56,7 @@ footer a{
   justify-content: center;
   padding: 8px;
   justify-content: space-between;
+  border-radius: 3px ;
 }
 
 #out-in-box{
@@ -66,10 +73,9 @@ footer a{
 
 #out-box{
   border: 1px rgb(223, 222, 222) solid;
+  z-index: 1px;
   background-color: rgb(228, 227, 227);
-  padding: 8px;
 }
-
 
 #button-box{
   display: flex;
