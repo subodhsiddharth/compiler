@@ -1,7 +1,13 @@
 {
+<<<<<<< Updated upstream
   "name": "cocom",
   "version": "0.1.0",
   "homepage": "http://subodhsiddharth.github.io/c3po-compiler",
+=======
+  "name": "compiler",
+  "version": "0.1.0",
+  "homepage": "https://subodhsiddharth.github.io/compiler",
+>>>>>>> Stashed changes
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -18,6 +24,10 @@
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+<<<<<<< Updated upstream
+=======
+    "socket.io-client": "^4.5.1",
+>>>>>>> Stashed changes
     "web-vitals": "^2.1.4"
   },
   "scripts": {

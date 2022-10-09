@@ -12,11 +12,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< Updated upstream
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+=======
+>>>>>>> Stashed changes
 header{
   display: flex;
   padding-top: 2%;
@@ -24,7 +27,10 @@ header{
   position: sticky;
   border-bottom: 1px grey solid ;
   box-shadow: 0 4px 4px -2px gray;
+<<<<<<< Updated upstream
   z-index: 3px;
+=======
+>>>>>>> Stashed changes
   background-color: whitesmoke;
 }
 
@@ -56,7 +62,10 @@ footer a{
   justify-content: center;
   padding: 8px;
   justify-content: space-between;
+<<<<<<< Updated upstream
   border-radius: 3px ;
+=======
+>>>>>>> Stashed changes
 }
 
 #out-in-box{
@@ -73,10 +82,18 @@ footer a{
 
 #out-box{
   border: 1px rgb(223, 222, 222) solid;
+<<<<<<< Updated upstream
   z-index: 1px;
   background-color: rgb(228, 227, 227);
 }
 
+=======
+  background-color: rgb(228, 227, 227);
+  padding: 8px;
+}
+
+
+>>>>>>> Stashed changes
 #button-box{
   display: flex;
   flex-direction: column;
